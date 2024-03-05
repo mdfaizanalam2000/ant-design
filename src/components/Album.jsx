@@ -20,7 +20,9 @@ const Album = () => {
         setPage(prev => prev + 1)
         const response = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=9&_page=${page}`)
         const data = await response.json()
-        setAlbum(prev => [...prev, ...data])
+        setTimeout(() => {
+            setAlbum(prev => [...prev, ...data])
+        }, 2000);
     }
 
     return (
