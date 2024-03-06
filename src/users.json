@@ -3,60 +3,80 @@
         "key": 1,
         "name": "Faizan",
         "branch": "CSE",
-        "domain": "Full stack"
+        "domain": "Full stack",
+        "loggedIn": true,
+        "inactiveInLast3Months": false
     },
     {
         "key": 2,
         "name": "Yumna",
         "branch": "CSE",
-        "domain": "Frontend"
+        "domain": "Frontend",
+        "loggedIn": false,
+        "inactiveInLast3Months": true
     },
     {
         "key": 3,
         "name": "Shyam",
         "branch": "ME",
-        "domain": "Data science"
+        "domain": "Data science",
+        "loggedIn": false,
+        "inactiveInLast3Months": true
     },
     {
         "key": 4,
         "name": "Lal",
         "branch": "EEE",
-        "domain": "Full stack"
+        "domain": "Full stack",
+        "loggedIn": true,
+        "inactiveInLast3Months": false
     },
     {
         "key": 5,
         "name": "Jaddu",
         "branch": "CSE",
-        "domain": "ML"
+        "domain": "ML",
+        "loggedIn": true,
+        "inactiveInLast3Months": false
     },
     {
         "key": 6,
         "name": "BK",
         "branch": "ECE",
-        "domain": "AI"
+        "domain": "AI",
+        "loggedIn": false,
+        "inactiveInLast3Months": false
     },
     {
         "key": 7,
         "name": "Zaid",
         "branch": "IT",
-        "domain": "Backend"
+        "domain": "Backend",
+        "loggedIn": true,
+        "inactiveInLast3Months": false
     },
     {
         "key": 8,
         "name": "Shruti",
         "branch": "CSE",
-        "domain": "IoT"
+        "domain": "IoT",
+        "loggedIn": false,
+        "inactiveInLast3Months": false
     },
     {
         "key": 9,
         "name": "Shreya",
         "branch": "ME",
-        "domain": "Robotics"
+        "domain": "Robotics",
+        "loggedIn": false,
+        "inactiveInLast3Months": false
     },
     {
         "key": 10,
         "name": "Nalini",
         "branch": "CE",
-        "domain": "Mining"
+        "domain": "Mining",
+        "loggedIn": false,
+        "inactiveInLast3Months": false
     }
 ]

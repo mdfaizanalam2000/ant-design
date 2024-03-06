@@ -22,7 +22,7 @@ const Album = () => {
         const data = await response.json()
         setTimeout(() => {
             setAlbum(prev => [...prev, ...data])
-        }, 2000);
+        }, 1000);
     }
 
     return (
@@ -31,7 +31,7 @@ const Album = () => {
             <InfiniteScroll
                 dataLength={album.length}
                 next={fetchData}
-                hasMore={album.length !== 100}
+                hasMore={album.length <= 100}
                 loader={<h4 className='text-center'>Loading...</h4>}
                 endMessage={
                     <p className='text-center'>
@@ -43,7 +43,7 @@ const Album = () => {
                 <Row gutter={[16, 16]}>
                     {album.map((item, index) => {
                         return <Col md={8} key={index}>
-                            <Card style={{ backgroundColor: "black", color: "white", height: "50vh" }}>
+                            <Card hoverable style={{ backgroundColor: "black", color: "white", height: "50vh" }}>
                                 <p>{item.title}</p>
                                 <p>{item.body}</p>
                             </Card>
